@@ -26,6 +26,7 @@ function RenderItem(props) {
             </View>
         );
     }
+
     if (item) {
         return (
             <Card
