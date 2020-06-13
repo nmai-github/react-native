@@ -82,9 +82,9 @@ class Reservation extends Component {
                     <Button
                         onPress={() => Alert.alert(
                             'Begin Search?',
-                            'Number of Campers: ' + ((this.state.campers)) + '\n\n' +
-                            'Hike-In? ' + ((this.state.hikeIn)) + '\n\n' +
-                            'Date: ' + ((this.state.date)),
+                            'Number of Campers: ' + ((this.state.campers)) +
+                            'Hike-In? ' + ((this.state.hikeIn)) +
+                            'Date ' + ((this.state.date)),
                             [
                                 { text: 'Cancel', onPress: () => this.resetForm() },
                                 { text: 'OK', onPress: () => this.resetForm() },
